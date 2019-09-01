@@ -1,0 +1,674 @@
+html, body{
+    font-family: 'PT Sans Caption', sans-serif;
+    font-size: 16px;
+    margin: 0;
+    height: 100%;
+}
+
+#header{
+    background: url(PHOTO_EXAMPLES/background_header.jpg);
+    background-size: cover;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.first_name{
+    color: white;
+    font-size: 60PX;
+    
+}
+.second_name{
+    color: white;
+    font-size: 25px;
+}
+
+
+#ubr{
+    text-decoration: none;
+    font-size: 25px;
+    color: rgba(255, 255, 255,0.8);
+    position: absolute;
+    top: 3.5%;
+    right: 4%; 
+   
+    
+    transition: 0.5s;
+}
+#ubl{
+    text-decoration: none;
+    font-size: 25px;
+    color: rgba(255, 255, 255,0.8);
+    position: absolute;
+    top: 3.5%;
+    left: 4%;    
+   
+    
+    transition: 0.5s;
+    
+}
+
+#ubl:hover{
+    border-bottom: 2px solid rgba(255, 255, 255,1);
+    color: rgba(255, 255, 255,1);
+}
+#ubr:hover{
+    border-bottom: 2px solid rgba(255, 255, 255,1);
+    color: rgba(255, 255, 255,1);
+}
+
+/*
+...........MAIN.........................................
+*/
+.black_name{
+    padding-top: 4px;
+    padding-bottom: 4px;
+    text-align: left;
+    width: 100%;
+    font-size: 40px;
+    color: black;
+    padding-left: 2%;
+    font-weight: normal;
+}
+
+
+#body{
+    height:auto;
+    background: url(PHOTO_EXAMPLES/background_body.jpg);
+    background-attachment:fixed;
+    padding-top: 3%;
+}
+
+#content_bg{
+    background-color: rgba(255,255,255,0.65);
+    margin-left: 10%;
+    margin-right: 10%;
+    height: auto;
+    /*padding-top: 3%;*/
+}
+
+.contayner_left{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+.photo{
+    width: 100%;
+    height: auto;
+    
+}
+
+
+.text{
+    width: 80%;
+    height: auto;
+    font-size: 18px;
+    margin-bottom: 0;
+    margin-top: -2%;
+    padding-left: 2%;
+    color: rgba(24, 25, 26, 1)
+}
+/*
+...........PHOTOS.........................................
+*/
+/*grid*/
+.vertical_txt{
+	width:1em; 
+	line-height:1em;
+	font-size:19px;
+	float: left;
+	margin-right: 2%;
+}
+
+.grid{
+    overflow: auto;
+    margin-top: 0px;
+    width: 90%;
+    
+    margin-top: 2%;
+    margin-right:auto;
+    margin-left: auto;
+    margin-bottom: 1%;
+}
+ .contayner_grid{
+ 	float: left;
+ 	width: 30%;
+    height: auto;
+    margin-right: 4%;
+ }
+ .contayner_grid:last-child{
+    margin-right: 0px;
+}
+
+.img_contayner{
+  width: 90%;
+  float: left;
+}
+.image{
+    margin-top: 5px;
+	width: 100%;
+	height: auto;
+}
+/*----*/
+/*photos*/
+#gallery_name{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    color: black;
+    padding-top: 10px;
+}
+.centered{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    height: auto;
+    width: 100%;
+    
+}
+.button{
+    color: black;
+    text-align: center;
+    font-size: 25px;
+    height: auto;
+    width: 20%;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    
+    text-decoration: none;
+    border: 2px solid #000000;
+    border-radius: 25px;
+    
+    padding-top: 1%;
+    padding-bottom: 1%;
+    transition: 1s;
+}
+.button:hover{
+    background-color: rgba(10, 10, 10,0.8);
+    color: rgb(255, 130, 41);
+    border: 2px solid rgb(255, 130, 41);
+    /*transition-duration: 0.5s;*/
+}
+#zakaz{
+    margin-top: -9px;
+    margin-bottom: 10px;
+}
+/*----*/
+/*WHY WE?*/
+
+#services{
+    text-align: center;
+    height: auto;
+    width: 100%;
+    background-image: url(PHOTO_EXAMPLES/why_we_bg.jpg);
+    background-size: cover;
+    
+}
+
+.white_name{
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 30px;
+    color: white;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.row{
+    overflow: auto;
+    width: 90%;
+    margin-left: 5%;
+    
+}
+
+.mini_contayner{
+    float: left;
+    width: 30%;
+    height: auto;
+    margin-right: 4%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+   
+    
+    
+}
+
+.mini_contayner:last-child{
+    margin-right: 0;
+    
+}
+
+.mini_zag{
+    color: rgb(255, 130, 41);
+    margin-bottom: 1%;
+    font-size: 55px;
+}
+
+.mini_txt{
+    color: rgb(240,240,240);
+    font-size: 35px;
+    width: 100%;
+}
+/*----------CENI---------*/
+.price_block{
+    width: 94%;
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+    margin-left: 3%;
+}
+#price{
+    width: 100%;
+    text-align: center;
+}
+#p_name{
+    width: 100%;
+    color: black;
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 1%;
+}
+
+
+.p_contayner{
+    width: 20%;
+    float: left;
+    margin-right: 4%;
+    margin-bottom: 2%;
+}
+
+.p_contayner:last-child{
+    margin-right: 0;
+    
+}
+#big_bp{
+    height: 280px/*100%*/;
+    background-image: url(PHOTO_EXAMPLES/рюказаки/price_bp.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#city_bp{
+    height: 100%;
+    background-image: url(PHOTO_EXAMPLES/рюказаки/price_bp.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#bags{
+    height: 100%;
+    background-image: url(PHOTO_EXAMPLES/рюказаки/price_b.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#other_things{
+    height: 100%;
+    background-image: url(PHOTO_EXAMPLES/рюказаки/price_m.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.the_price{
+    color: rgb(255, 130, 41);
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.the_txt{
+    width: 70%;
+    color: white;
+    font-size: 20px;
+}
+/*----------KONTAKTI---------*/
+
+.contacts{
+    width: 100%;
+    height: auto;
+    padding-bottom: 2%;
+    
+}
+#contacts_n{
+    color: black;
+    font-size: 35px;
+    width: 100%;
+    text-align: center;
+    
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.contacts_block{
+    width: 94%;
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+    margin-left: 3%;
+}
+
+.contacts_contayner{
+    width: 49%;
+    float: left;
+    margin-right: 1%
+}
+.contacts_contayner:first-child{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contacts_name{
+    font-size: 20px;
+    margin-top: 0;
+    width: 100%;
+    text-align: center;
+}
+
+
+.contacts_main{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 100%;
+    text-align: center;
+    overflow: auto;
+}
+
+.contacts_main:last-child{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.phones{
+    text-decoration: none;
+    color: black;
+        
+    transition: 1s;
+}
+.phones:hover{
+    color: rgb(255, 130, 41);
+}
+.phones_margin{
+    margin-bottom: 10px;
+    font-size: 20px; 
+}
+phones_margin:last-child{
+    margin-bottom: 0;
+}
+.social_href{
+    font-size: 50px;
+    text-decoration: none;
+    color: black;
+    
+    transition: 1s;
+}
+
+.social_href:hover{
+    color: rgb(255, 130, 41);
+}
+.social{
+    float: left;
+    width: 20%;
+}
+
+.map{
+    width: 100%;
+    margin-top: 2%;
+}
+#maps{
+    padding-bottom: 5%;
+}
+
+/*---------BOTTOM---------*/
+
+#bottom{
+    height: 15%;
+    width: 100%;
+    background-color: rgb(64, 62, 58);
+    display: flex;
+    align-items: center;
+}
+
+#bottom a:hover{
+    color: black;
+}
+.bottom_block{
+    width: 26.6%;
+    margin-left: 5%;
+    float: left;
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 0;
+}
+.bottom_block a{
+    text-decoration: none;
+    color: rgb(255, 130, 41);
+    transition: 1s;
+}
+
+.bottom_block i{
+    font-size: 25px;
+    color: rgb(255, 130, 41);
+    transition: 1s;
+}
+
+
+.bottom_block span{
+    color: rgb(255, 130, 41);
+}
+
+
+/*---------------MEDIA---------------------*/
+
+@media (max-width: 1024px){
+
+  
+    
+    #content_bg{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    #body{
+        background-color: grey;
+        background: url(PHOTO_EXAMPLES/phone_bg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    #ubl{
+        font-size: 70px;
+    }
+    #ubr{
+        font-size: 70px;
+    }
+    .first_name{
+        font-size: 120px;
+    }
+    .second_name{
+        font-size: 50px;
+    }
+    
+    .contayner_left{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .text{
+        font-size: 40px;
+        text-align: center;
+        width: 90%;
+        
+        
+    }
+    .black_name{
+        text-align: center;
+        margin: 0;
+        font-weight: bold;
+    }
+
+    .button{
+        font-size: 50px;
+        width: auto;
+        padding-left: 20px;
+        padding-right: 20px;
+        background-color: rgba(10, 10, 10,0.8);
+        color: rgb(255, 130, 41);
+        border: 2px solid rgb(255, 130, 41);
+    /*transition-duration: 0.5s;*/
+    }
+    
+    .contayner_grid{
+        width: 100%;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .image{
+        float: left;
+        width: 100%;
+        margin-bottom: 15px;
+    
+    }
+    .image:last-child{
+        visibility: hidden;
+        display: none;         
+    }
+       
+    .vertical_txt{
+        visibility: hidden;
+        display: none;
+    }
+    .grid{
+        width: 100%;
+    }
+    
+    #gallery_name{
+        font-size: 50px;
+        text-align: center;
+    }
+  
+    .white_name{
+        font-size: 60px;
+    }
+    .mini_zag{
+        font-size: 70px;
+        font-weight: bold;
+    }
+    
+    .mini_txt{
+        font-size:40px;
+    }
+    #p_name{
+        font-size: 60px;
+    }
+      /*price*/
+    .p_contayner{
+        text-align: center;
+        width: auto;
+        display: flex;
+        
+        justify-content: center;
+        align-items: center;
+        margin-left: 0%;
+        margin-right: 0%;
+        
+    }
+    #big_bp{
+        height: auto;
+        width: 38%;
+        
+    }
+    #city_bp{
+        width: 38%;
+    }
+    #bags{
+        width: 38%;
+    }
+    #other_things{
+        width: 38%;
+    }
+    .price_block{
+        display:flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+        
+    }
+    .the_price{
+        font-size: 55px;
+        
+    }
+    .the_txt{
+        font-size: 40px;
+        width: 100%;
+    }
+    
+    
+    
+    
+    .contacts_block{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #contacts_n{
+        font-size:  60px;
+        margin-bottom: 40px;
+    }
+    .contacts_name{
+        font-size:50px;
+        
+    }
+    .contacts_main{
+        margin-bottom: 60px;
+    }
+    .contacts_contayner:last-child{
+        margin-top: 50px;
+    }
+    .social_href{
+        font-size: 90px;
+    }
+    .social{
+        margin-right: 15%;
+    }
+     .social:last-child{
+        margin-right: 0;
+    }
+    .phones{
+        font-size: 40px;
+        font-weight: bold;
+    }
+    .phones_margin{
+        font-size: 0px;
+    }
+    #adaptation{
+        width: 100%;
+    }
+    .map{
+        width: 100%;
+    }
+    /*#services{
+        height: 400px;*/
+    
+}
+
